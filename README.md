@@ -1,13 +1,16 @@
-# 🖼️ Deep Learning Image Classification Project
+# 🧠 Deep Learning Image Classification Project
 
-Bu proje, Derin Öğrenme (Deep Learning) teknikleri kullanılarak geliştirilmiş bir görüntü sınıflandırma modelidir. **TensorFlow** ve **Keras** kütüphaneleri kullanılarak oluşturulan CNN (Convolutional Neural Network) mimarisi ile görseller analiz edilir ve [BURAYA NE SINIFLANDIRDIĞINI YAZ: Örn. Kedi/Köpek, Trafik İşaretleri, Bitki Hastalıkları] tespiti yapılır.
+Bu proje, Derin Öğrenme (Deep Learning) teknikleri ve **Convolutional Neural Network (CNN)** mimarisi kullanılarak geliştirilmiş bir görüntü sınıflandırma modelidir.
 
-## 🚀 Projenin Amacı
-Bu çalışmanın temel amacı, eldeki veri seti üzerinden modelin görsel örüntüleri öğrenmesini sağlamak ve yeni gösterilen resimlerin hangi sınıfa ait olduğunu yüksek doğrulukla tahmin etmektir. Veri artırma (Data Augmentation) teknikleri kullanılarak modelin başarısı optimize edilmiştir.
+Proje, **banknot sınıflandırması** veri seti üzerinde eğitilmiş olup, verilen görsellerin hangi sınıfa ait olduğunu yüksek doğrulukla tahmin etmeyi amaçlar.
+
+## 🚀 Özellikler
+* **Gelişmiş CNN Mimarisi:** Conv2D, MaxPooling ve Dropout katmanları ile optimize edilmiştir.
+* **Veri Artırma (Data Augmentation):** Modelin başarısını artırmak için veriler çeşitlendirilmiştir.
+* **GPU Desteği:** TensorFlow GPU altyapısı ile hızlı eğitim imkanı sunar.
 
 ## 🛠 Kullanılan Teknolojiler
 * **Python 3.9+**
-* **TensorFlow & Keras** (Model mimarisi ve eğitimi için)
-* **NumPy** (Matris işlemleri için)
-* **Matplotlib / Seaborn** (Veri görselleştirme ve eğitim grafikleri için)
-
+* **TensorFlow & Keras** (Derin öğrenme altyapısı)
+* **NumPy** (Matris ve veri işleme)
+* **Matplotlib & Seaborn** (Başarı grafiklerinin çizimi)
